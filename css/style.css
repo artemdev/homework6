@@ -366,6 +366,8 @@ footer form button {
 .right-footer {
   width: 450px;
   padding-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer p {
