@@ -340,10 +340,10 @@ footer form input[type="text"]:focus {
 }
 
 footer form input[type="text"]::placeholder {
+  overflow: visible;
   font-family: "Roboto";
   font-weight: 300;
   font-size: 0.9375rem;
-  line-height: 24px;
   color: #cccccc;
   font-style: italic;
 }
