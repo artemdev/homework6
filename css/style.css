@@ -259,6 +259,9 @@ ul.our-services li {
   height: 100%;
   visibility: hidden;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .person {
 }
@@ -301,30 +304,27 @@ ul.our-services li {
   flex-direction: column;
 }
 .social-icons-wrap {
-  position: absolute;
-  left: 78px;
-  top: 207px;
   width: 224px;
   height: 56px;
-  background-color: #fce38a;
 }
 
-.social-icons-wrap button {
+.social-icons-wrap a {
+  box-sizing: border-box;
   display: inline-flex;
   width: 56px;
   height: 56px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: transparent;
+  background-color: #fce38a;
   border: 1px solid transparent;
   border-right-color: var(--pink);
   cursor: pointer;
 }
-.social-icons-wrap button:hover {
+.social-icons-wrap a:hover {
   background-color: var(--green);
 }
 
-.social-icons-wrap button:last-child {
+.social-icons-wrap a:last-child {
   border-right-color: transparent;
 }
 
