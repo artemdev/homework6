@@ -315,7 +315,7 @@ ul.our-services li {
   height: 56px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fce38a;
+  /* background-color: #fce38a; */
   border: 1px solid transparent;
   border-right-color: var(--pink);
   cursor: pointer;
