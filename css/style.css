@@ -225,7 +225,6 @@ ul.our-services li {
   color: var(--light-black);
 }
 .our-team ul li p {
-  text-align: middle;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -315,7 +314,7 @@ ul.our-services li {
   height: 56px;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #fce38a; */
+  background-color: #fce38a;
   border: 1px solid transparent;
   border-right-color: var(--pink);
   cursor: pointer;
@@ -380,7 +379,6 @@ footer form {
 footer form button {
   font-size: 0.9375rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 900px;
   width: 150px;
   height: 40px;
   text-transform: uppercase;
