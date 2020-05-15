@@ -308,13 +308,14 @@ ul.our-services li {
 }
 
 .social-icons-wrap a {
+  background-color: #fce38a;
   box-sizing: border-box;
   display: inline-flex;
   width: 56px;
   height: 56px;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #fce38a; */
+
   border: 1px solid transparent;
   border-right-color: var(--pink);
   cursor: pointer;
