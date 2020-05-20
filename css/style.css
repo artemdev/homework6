@@ -273,14 +273,11 @@ ul.our-services li {
   width: 100%;
   height: 100%;
   position: absolute;
-  animation-name: HoverAnimation;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
   visibility: visible;
   z-index: -1;
 }
 .person-wrap:hover .person-image-gradient {
-  animation: HoverAnimation;
+  animation: HoverAnimation 200ms linear;
   transition-duration: 200ms;
   transition-timing-function: linear;
   transform: translate(-10px, -10px);
@@ -288,7 +285,7 @@ ul.our-services li {
   z-index: 2;
 }
 .person-wrap:hover .person-img {
-  animation: HoverAnimation;
+  animation: HoverAnimation 200ms linear;
   transition-duration: 200ms;
   transition-timing-function: linear;
   transform: translate(-10px, -10px);
